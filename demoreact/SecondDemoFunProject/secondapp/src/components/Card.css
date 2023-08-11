@@ -1,0 +1,47 @@
+.card-products{
+    display: flex;
+    flex-direction: column;
+    min-width:350px;
+    background-color:yellow;
+    margin-top: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 10px;
+}
+
+.card-productItems{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    margin: 10px;
+    border-radius: 20px;
+    background-color: aqua;
+}
+
+.card-itemDate{
+    border-radius: 20px;
+    padding: 10px;
+    min-width: 60px;
+    background-color: rgb(54, 54, 54);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    color: white;
+    font-size: 12px;
+}
+
+.product-date_month{
+    font-weight:bold;
+}
+
+.product-date_day{
+    font-size: 17px;
+    font-weight:bolder;
+}
+
+.card-itemName{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:larger;
+    font-weight: bolder;
+    color: brown;
+}

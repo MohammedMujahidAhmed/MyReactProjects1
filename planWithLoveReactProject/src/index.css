@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@900&family=Poppins:wght@400;500&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    font-family: 'Poppins', sans-serif;
+}
+
+.Tour-wrapper{
+    max-width: 1200px;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.Tour-heading{
+    font-size:xx-large;
+    border:5px dashed blue;
+    width: fit-content;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding:5px 30px;
+    border-radius: 10px;
+}
+
+.card-container{
+    max-width: 340px;
+    height: fit-content;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.card-img{
+    max-width: 310px;
+    aspect-ratio: 1;
+}
+.Tour-cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    row-gap: 20px;
+}
+
+.card-price{
+    font-weight: 700;
+    color: rgb(7, 241, 104);
+}
+
+.card-name{
+    font-weight: bolder;
+}
+
+.card-info{
+    font-size: small;
+}
+
+.card-readmore{
+    color: blue;
+    font-weight:500;
+    cursor: pointer;
+}
+
+.card-btn-red{
+    border: 1px solid rgb(233, 24, 24);
+    background-color: rgba(228, 143, 143, 0.904);
+    font-weight: bold;
+    font-size: large;
+    padding: 5px 30px;
+    border-radius:10px ;
+    margin-top:20px ;
+    cursor: pointer;
+}
+
+.card-btn-red:hover{
+    background-color: red;
+}
+
+.card-innner-desc{
+    text-align: start;
+}
+
+.refresh-wrapper{
+    width: 1200px;
+    height: 100vh;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.refresh-text{
+    font-size: large;
+    font-weight: bold ;
+    margin: 5px;
+}
+
+.refresh-btn{
+    border: 0px solid rgb(34, 34, 34);
+    background-color: rgb(207, 209, 211);
+    font-size: large;
+    font-weight:600;
+    padding: 5px 30px;
+    border-radius: 10px;
+    cursor: pointer;
+}
